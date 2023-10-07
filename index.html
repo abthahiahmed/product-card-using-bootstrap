@@ -38,12 +38,12 @@
                     <div class="col-1 text-warning"><i class="bi bi-star-fill"></i></div>
                     <div class="col-1 text-warning"><i class="bi bi-star-fill"></i></div>
                     <div class="col-1 text-warning"><i class="bi bi-star-fill"></i></div>
-                    <div class="col-1 text-muted"><i class="bi bi-star-fill"></i></div>
+                    <div class="col-1 text-warning"><i class="bi bi-star"></i></div>
                 </div>
                 <p class="text-secondary" data-aos="fade-left" data-aos-delay="300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores architecto dolores, molestiae quibusdam omnis ducimu..</p>
                 
                 <h5 class="mb-2 fw-bold" data-aos="fade-left" data-aos-delay="500">Colors</h5>
-                <div class="d-flex mb-3" data-aos="fade-left" data-aos-delay="500">
+                <div class="d-flex mb-4" data-aos="fade-left" data-aos-delay="500">
                     <div class="color-v bg-primary me-3 c-active" onclick="changeColor(0, '#0974f1, #9fccfa', this)"></div>
                     <div class="color-v bg-warning me-3" onclick="changeColor(180, '#ff930f, #fff95b', this)"></div>
                     <div class="color-v bg-success me-3" onclick="changeColor(250, '#2b9348, #55a630', this)"></div>
@@ -51,7 +51,7 @@
                 </div>
 
                 <h5 class="mb-2 fw-bold" data-aos="fade-left" data-aos-delay="700">Quantity</h5>
-                <div class="input-group" data-aos="fade-left" data-aos-delay="700">
+                <div class="input-group mb-md-0 mb-4" data-aos="fade-left" data-aos-delay="700">
                     <button class="btn btn-primary" onclick="quantity('down')">-</button>
                     <input type="text" value="1" id="q-value" class="form-control" style="max-width: 100px;">
                     <butto class="btn btn-primary" onclick="quantity('up')">+</button>
@@ -60,7 +60,7 @@
 
                 <div class="mt-3 float-md-end clearfix" data-aos="fade-up" data-aos-delay="1000">
                     <p class="mb-1 text-md-center fs-6 fw-bold">Total $<span id="total-amount">56.39</span></p>
-                    <button class="btn btn-primary"><i class="bi bi-cart-plus"></i> ADD TO CART</button>
+                    <button class="btn btn-primary" onclick="addToCart(this)"><i class="bi bi-cart-plus"></i> ADD TO CART</button>
                 </div>
             </div>
         </div>

@@ -38,3 +38,7 @@ function changeColor(p, b, e){
 
     productBack.style.background = 'linear-gradient(' + b + ')';
 }   
+
+function addToCart(e){
+    e.innerHTML = '<i class="bi bi-check2-circle"></i> Added To Cart'
+}
